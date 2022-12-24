@@ -1,10 +1,14 @@
 body {
   margin: 0;
   color: white;
-  background-image: url("../IMG/universe.jpg");
+  background-image: url("https://media.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif");
   background-size: cover;
   text-align: center;
   font-family: 'Orbitron', sans-serif;
+}
+
+#main-logo {
+  width: 150px;
 }
 
 .btn {
@@ -13,4 +17,8 @@ body {
   background-color: white;
   font-family: inherit;
   font-weight: bold;
+}
+
+.underline {
+  border-bottom: 4px solid white;;
 }
