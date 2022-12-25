@@ -1,10 +1,18 @@
 body {
   margin: 0;
-  color: white;
-  background-image: url("https://media.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif");
-  background-size: cover;
+  color: #82a5ca;
   text-align: center;
   font-family: 'Orbitron', sans-serif;
+}
+
+#hero {
+  background-image: url("https://media.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif");
+  background-size: cover;
+  padding: 10px 0 40px;
+}
+
+#hero h1 {
+  text-shadow: 0 0 4px black;
 }
 
 #main-logo {
@@ -17,6 +25,7 @@ body {
   background-color: white;
   font-family: inherit;
   font-weight: bold;
+  color: #82a5ca;
 }
 
 .underline {
