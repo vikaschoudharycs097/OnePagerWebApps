@@ -2,6 +2,9 @@ body {
   font-family: 'Happy Monkey', cursive;
   background-color: #6da3d6;
   color: #fff;
+}
+
+#header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,5 +17,19 @@ body {
 }
 
 h1, h2, h4 {
-  text-shadow: 0 0 3px black;
+  text-shadow: 0 0 1px black;
+}
+
+h2, h4 {
+  background-color: #efb0c9;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+h4 {
+  margin: 0;
 }
